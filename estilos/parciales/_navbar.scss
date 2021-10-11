@@ -1,0 +1,20 @@
+@import "./colores";
+@import"./responsive";
+
+
+.navbar{
+    background:$gris;
+    display:flex;
+    position: relative;
+    &__ul{
+        color: $blanco;
+        text-decoration: none;
+        cursor: pointer;
+        opacity: 0;
+        @include tablet{
+            color: $azul;
+            opacity: 1;
+            position: absolute;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@import"./responsive";
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px 0px;
+    height: 400px;
+    border-bottom: 2px solid black;
+    align-items: center;
+    background-color: lightyellow;
+    background-image: url(../img/CASA2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    img{
+        width: 150px;
+        width: 15%;
+        nav{
+            ul{
+                display: flex;
+                list-style: none;
+                background-color: gray;
+                margin-top: 300px;
+                li{
+                   a{
+                    color: white;
+                    text-decoration: none;
+                    margin: 0px 10px;
+                    list-style: none;
+                    background-color: gray;
+                    font-size: 20px; 
+                   } 
+                } 
+            }
+        }
+    }
+}

@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px 0px;
+    height: 400px;
+    border-bottom: 2px solid black;
+    align-items: center;
+    background-color: lightyellow;
+    background-image: url(../img/CASA2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header img {
+    width: 150px;
+}
+header h1{
+    padding-left: 250px;
+    font-size: 40px;
+    justify-content: left;
+    font-family: 'Urbanist', sans-serif;
+    padding-top: 100px;
+}
+header img{
+    width: 15%;
+    }
+header nav ul{
+    display: flex;
+    list-style: none;
+    background-color: gray;
+    margin-top: 300px;
+
+    
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    list-style: none;
+    background-color: gray;
+    font-size: 20px;
+}
+main {
+    background-color: lightyellow;
+    margin-left: 10px;
+}
+main section{
+margin: 10px;
+}
+
+footer {
+    background-color: gray;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Urbanist', sans-serif;
+    color: beige;
+}
+footer section ul{
+    list-style: none;
+}
+h2{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-family: 'Urbanist', sans-serif; 
+}
+.high{
+    display: flex;
+    justify-content: center;
+    margin: 15px 10px;
+}
+/*herosection*/
+.herosection{
+    margin: 0px 40 px;
+    height: 90vh;
+    display:flex;
+    justify-content: center;
+    align-items: top;
+    font-family: 'Urbanist', sans-serif;
+    margin: 40px;
+}
+.herosection img{
+width: 30%;
+}
+.herosection article{
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.herosection article a {
+    text-align: center;
+    text-decoration: none;
+    width: 30%;
+    color:white;
+    background-color: cornflowerblue;
+    margin: 10px 330px;
+}
+.herosection article h2{
+    color: black;
+}
+.herosection1{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 10px 15px;
+    align-items: center;
+    font-family: 'Urbanist', sans-serif;
+}
+.herosection1 h2{
+    color: black;
+    font-size: 40px;
+    font-family: 'Urbanist', sans-serif;
+    }
+    .herosection1 img{
+     width: 60% ;
+    }
+.herosection3{
+    height: 90vh;
+    display: flex;
+    margin: 15px 15px;
+    justify-content: space-around;
+    font-family: 'Urbanist', sans-serif;
+}
+.diseños{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 300px;
+    }
+.grid{
+    border: solid 1px blue;
+    display:grid ;
+    grid-template-columns:repeat(1fr) ;
+    grid-template-rows: repeat(2fr);
+    height:vh ;
+    
+}
+.error{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    
+} 
+.clase{
+    display: flexbox;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    list-style: none;
+} 
+
+
+/* estilos menu*/
+nav ul li :hover {
+    background-color: rgb(51, 37, 39); 
+   box-shadow: 2px 2px black;
+   color: lightpink;
+}
+main a:hover{
+    background-color: blue;
+    transform: scale(1.1);
+    box-shadow: 2px 2px black;
+    color: white;}
+.titulos{
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+}
+     
+.tam{
+    height: 600px;
+    width: 1300px;
+    margin-left: 100px;
+}
+.color{
+    color: white;
+    font-size: 60px;
+    font-family: 'Urbanist', sans-serif; 
+
+}
+.color1{
+    color: black;
+    font-size: 60px;
+    font-family: 'Urbanist', sans-serif; 
+
+} 
+
+  /* media queries*/
+  @media screen and (max-width: 320px) {
+    header{
+        width:600px ;
+        background-image: none;
+    }
+    header h1{
+        color: cadetblue;
+    }
+    main{
+        width:600px ;
+    }
+    footer{
+        width: 600px;
+    }
+    header nav ul{
+        display: block;
+        list-style: none;
+        background-color: gray;
+        margin-top: 300px;}
+        
+    
+    .herosection{
+        margin: 0px 0 px;
+        height: 500px;
+        display:block;
+        justify-content: center;
+        align-items: center;}
+    }  
+  
+   
+  .tam1{
+      image-resolution: 400px;
+      width: 800px;
+      size: 300%;
+  }
+  @media screen and (max-width: 768px) {
+    header{
+        width:1200px ;
+        
+    }
+    header h1{
+        color: cadetblue;
+    }
+    main{
+        width:1200px ;
+    
+    }
+    footer{
+        width: 1200px;
+        
+    }
+    header nav ul{
+        display: flex;
+        list-style: none;
+        background-color: gray;
+        margin-top: 300px;}
+        
+    
+    .herosection{
+        margin: 0px 0 px;
+        height: 100vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;}
+   
+}
+
+
+
+    

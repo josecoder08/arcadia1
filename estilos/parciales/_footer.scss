@@ -1,0 +1,16 @@
+@import"./responsive";
+
+footer{
+    background-color: gray;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Urbanist', sans-serif;
+    color: beige;
+     section{
+         ul{
+            list-style: none;   
+         }
+     }
+}
