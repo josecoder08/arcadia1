@@ -259,7 +259,7 @@ main a:hover{
   @media screen and (max-width: 425px) 
   {
     header{
-        width:600px ;
+        width:auto;
         background-image: none;
             display: flex;
             justify-content:center;
@@ -297,10 +297,10 @@ main a:hover{
         background-color: gray;
         font-size: 45px;}
     main{
-        width:600px ;  
+        width:auto ;  
     }
     footer{
-        width: 600px;
+        width: auto;
     }
     header nav ul{
         display: block;
@@ -333,18 +333,18 @@ main a:hover{
   @media screen and (max-width: 768px) 
   {
     header{
-        width:1200px ;
+        width:auto;
         justify-content: flex-end;
         
     }
     
    
     main{
-        width:1200px ;
+        width:auto ;
     
     }
     footer{
-        width: 1200px;
+        width:auto;
         
     }
     header nav ul{
